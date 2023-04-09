@@ -1,6 +1,6 @@
-package com.springsecurityjwt.springsecurityjwt.config;
+package com.bookstore.config;
 
-import com.springsecurityjwt.springsecurityjwt.auth.UserReposity;
+import com.bookstore.auth.UserReposity;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

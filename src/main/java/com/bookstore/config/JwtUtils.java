@@ -1,4 +1,4 @@
-package com.springsecurityjwt.springsecurityjwt.config;
+package com.bookstore.config;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

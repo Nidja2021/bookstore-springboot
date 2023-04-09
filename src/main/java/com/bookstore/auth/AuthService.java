@@ -1,12 +1,11 @@
-package com.springsecurityjwt.springsecurityjwt.auth;
+package com.bookstore.auth;
 
-import com.springsecurityjwt.springsecurityjwt.auth.dto.LoginRequestDto;
-import com.springsecurityjwt.springsecurityjwt.auth.dto.LoginResponseDto;
-import com.springsecurityjwt.springsecurityjwt.auth.dto.RegisterRequestDto;
-import com.springsecurityjwt.springsecurityjwt.auth.dto.RegisterResponseDto;
-import com.springsecurityjwt.springsecurityjwt.config.JwtUtils;
+import com.bookstore.auth.dto.LoginRequestDto;
+import com.bookstore.auth.dto.LoginResponseDto;
+import com.bookstore.auth.dto.RegisterRequestDto;
+import com.bookstore.auth.dto.RegisterResponseDto;
+import com.bookstore.config.JwtUtils;
 import lombok.RequiredArgsConstructor;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 

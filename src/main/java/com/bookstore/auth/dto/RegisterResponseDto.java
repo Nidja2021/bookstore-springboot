@@ -1,13 +1,14 @@
-package com.springsecurityjwt.springsecurityjwt.auth.dto;
+package com.bookstore.auth.dto;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class LoginRequestDto {
+@Builder
+public class RegisterResponseDto {
     private String email;
-    private String password;
 }

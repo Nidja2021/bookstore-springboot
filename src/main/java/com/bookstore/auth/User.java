@@ -1,4 +1,4 @@
-package com.springsecurityjwt.springsecurityjwt.auth;
+package com.bookstore.auth;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
