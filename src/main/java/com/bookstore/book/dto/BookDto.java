@@ -1,5 +1,6 @@
 package com.bookstore.book.dto;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -17,5 +18,6 @@ public class BookDto {
     private String author;
     private String description;
     private BigDecimal price;
+    @JsonProperty(value = "publication_date")
     private LocalDate publicationDate;
 }

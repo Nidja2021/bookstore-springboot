@@ -41,7 +41,7 @@ public class OrderService {
                 .build();
 
         OrderResponseDto newOrderDto = OrderResponseDto.builder()
-                .userEmail(username)
+                .user(username)
                 .books(orderDto.getBooks())
                 .orderDate(orderDto.getOrderDate())
                 .orderStatus(orderDto.getOrderStatus())

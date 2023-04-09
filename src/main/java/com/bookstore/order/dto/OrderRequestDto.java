@@ -2,6 +2,7 @@ package com.bookstore.order.dto;
 
 import com.bookstore.book.Book;
 import com.bookstore.order.OrderStatus;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -16,6 +17,10 @@ import java.util.List;
 @Builder
 public class OrderRequestDto {
     private List<Book> books;
+
+    @JsonProperty("order_date")
     private LocalDate orderDate;
+
+    @JsonProperty("order_status")
     private OrderStatus orderStatus;
 }
